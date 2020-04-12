@@ -29,18 +29,33 @@
 // console.log(errors[0]);
 
 // get elements by their tag name 
-const paras = document.getElementsByTagName('p');
-console.log(paras);
-console.log(paras[1]);
+// const paras = document.getElementsByTagName('p');
+// console.log(paras);
+// console.log(paras[1]);
 
+/* Adding & Changing Page Content */
+// const para = document.querySelector('p');
+// console.log(para.innerText);
 
+// para.innerText += ' pleased to meet you';
+// console.log(para.innerText);
 
+// const paras = document.querySelectorAll('p');
 
+// paras.forEach(para => {
+//     console.log(para.innerText);
+//     para.innerText += ' new text';
+// });
 
+const content = document.querySelector('.content');
 
+// content.innerHTML = '<h2>Sympathy for the Devil</h2>'
 
+const people = ['mario', 'luigi', 'yoshi'];
 
-
+people.forEach(person => {
+    content.innerHTML += `<p>${person}</p>`
+})
 
 
 
