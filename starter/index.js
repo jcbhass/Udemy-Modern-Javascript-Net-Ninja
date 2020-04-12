@@ -67,5 +67,6 @@ console.log(mssg.getAttribute('class'));
 mssg.setAttribute('class', 'success');
 mssg.setAttribute('style', 'color: green;');
 
-
+const title = document.querySelector('h1');
+title.setAttribute('style', 'margin: 50px');
 
