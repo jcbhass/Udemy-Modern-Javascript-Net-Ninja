@@ -69,4 +69,46 @@ mssg.setAttribute('style', 'color: green;');
 
 const title = document.querySelector('h1');
 title.setAttribute('style', 'margin: 50px');
+console.log(title.style);
+title.style.color = 'orange';
+
+console.log(content.classList);
+
+content.classList.add('error');
+content.classList.remove('error');
+
+
+const newTitle = document.querySelector('.title');
+
+newTitle.classList.toggle('test');
+// newTitle.classList.toggle('test');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
