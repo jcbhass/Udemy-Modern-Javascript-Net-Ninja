@@ -83,8 +83,10 @@ const newTitle = document.querySelector('.title');
 newTitle.classList.toggle('test');
 // newTitle.classList.toggle('test');
 
+const article = document.querySelector('article');
 
-
+console.log(article.children);
+console.log(Array.from(article.children));
 
 
 
