@@ -88,7 +88,10 @@ const article = document.querySelector('article');
 console.log(article.children);
 console.log(Array.from(article.children));
 
-
+button = document.querySelector('button');
+button.addEventListener('click', () => {
+    console.log('you clicked me')
+});
 
 
 
